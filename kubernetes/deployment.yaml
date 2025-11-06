@@ -41,4 +41,4 @@ spec:
           initialDelaySeconds: 5
           periodSeconds: 5
       imagePullSecrets:
-      - name: github-container-registry
+      - name: github-container-registry # this secret needs to be created in the cluster to pull image from GHCR. Check Readme.md in this kubernetes folder.
